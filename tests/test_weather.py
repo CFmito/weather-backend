@@ -1,7 +1,7 @@
 import sys
 from pathlib import Path
 
-# Добавляем корневую директорию проекта в sys.path
+# Добавляем корневую директорию (двойные подчеркивания file)
 sys.path.append(str(Path(file).resolve().parent.parent))
 
 import pytest
