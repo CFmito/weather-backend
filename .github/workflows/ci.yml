@@ -43,7 +43,7 @@ jobs:
           REDIS_PORT: 6379
           PYTHONPATH: .
         run: |
-          pyton -m pytest
+          python -m pytest
 
       - name: Build Docker image
         run: |
