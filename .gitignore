@@ -1,0 +1,14 @@
+# Python / FastAPI
+__pychache__/
+*.pyc
+.venv/
+env/
+
+# Flutter / Dart
+weather-app/.dart_tool/
+weather-app/.idea
+weather-app/build/
+
+# Docker & OS
+.DS_Store
+*.log
