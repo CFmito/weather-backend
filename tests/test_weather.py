@@ -1,6 +1,12 @@
+import sys
+from pathlib import Path
+
+# Добавляем корневую директорию проекта в sys.path
+sys.path.append(str(Path(file).resolve().parent.parent))
+
 import pytest
 from fastapi.testclient import TestClient
-from main import app  # Заменили app.main на main
+from main import app
 
 client = TestClient(app)
 
